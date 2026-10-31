@@ -179,6 +179,10 @@ def-arbitration-skill/
   LICENSE
 ```
 
+## Data
+
+The plugin has no network access of its own, no MCP servers, no hooks and no connectors. It stores nothing and writes no files. It runs 1 shell command, `shuf`, to draw the order in which the arbiter sees the 2 arguments. The text of your question goes to the router, debater and arbiter subagents inside your own Claude session, under your normal Claude data settings. The member agent has read-only tools (Read, Grep, Glob) and is told to look only at its task.
+
 ## Citation
 
 Ryan, S. (2026). *Durable Evaluation Framework: Adversarial Arbitration for Sycophancy Reduction in Large Language Models.* arXiv:2606.07532.
