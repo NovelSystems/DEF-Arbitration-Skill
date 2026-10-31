@@ -197,7 +197,7 @@ No case passed every grader. The runner's pass threshold is 1.0, so the suite ex
 - **The "No council run" note graders conflict with the trigger design.** The skill's description tells Claude to skip settled facts and pure taste, so the skill never loads on those 2 cases and the note never appears. Both arms fail the same grader, which is why the delta is 0.
 - **The tie line is still too long.** In the kept Trident run it was 2 sentences and added advice ("Propose wording ... and ask to track how it works"). Round 4 also produced 2 sentences. The relay above the separator was verbatim apart from allowed third-person-to-"you" edits.
 - **There is a possible stripping leak.** In the kept Trident run, the arbiter wrote "the counselor", so the stripped question likely kept the user's role. The trace was removed before this could be confirmed.
-- **The sandbox needs 2 tools.** The first attempt failed because a shell grant needs `bubblewrap` and `socat` for sandboxing. Both were installed for the second run.
+- **The first eval attempt failed on a missing sandbox dependency.** The second run passed after the dependency was added.
 
 # Round 5: Trident removed, trace-independent graders
 
