@@ -3,7 +3,7 @@
   "owner": {
     "name": "Sam Ryan, Novel Systems Engineering LLC"
   },
-  "description": "Marketplace for the DEF Arbitration plugin: blind multi-agent arbitration that reduces sycophancy on contested questions.",
+  "description": "Marketplace for the DEF Arbitration plugin: blind multi-agent arbitration that is built to reduce sycophancy on contested questions.",
   "plugins": [
     {
       "name": "def-arbitration",
